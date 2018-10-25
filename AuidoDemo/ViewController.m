@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
+#import <KTVHTTPCache/KTVHTTPCache.h>
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    NSError *error;
+//    [KTVHTTPCache proxyStart:&error];
+//    
+//    NSURL *proxyUrl = [KTVHTTPCache proxyURLWithOriginalURL:[NSURL URLWithString:@"http://220.249.115.46:18080/wav/day_by_day.mp4"]];
+//    AVPlayer * player = [AVPlayer playerWithURL:proxyURL];
 }
 
 
